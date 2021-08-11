@@ -6,7 +6,7 @@ function mostrar_producto($id) {
     $producto = new stdClass();
     $producto->id = $id;
     $producto->nombre = "Coca cola";
-    $producto->cantidad = 10;
+    $producto->cantidad = 11;
 
     return json_encode($producto);
 }
